@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-success">Hehehehe</h1>
+        <h1 class="text-success">Thời trang nam</h1>
     </div>
 </template>
 

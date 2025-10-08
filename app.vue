@@ -1,19 +1,28 @@
 <template>
-    <div>
-        <nuxt-link to="/" />
-        <nuxt-link :to="{name: SecondPage}"/>
+  <div class="layout-wrapper">
+    <AppNavbar />
+
+    <div class="main-content">
+      <NuxtPage />
     </div>
 
-    <NuxtPage />
+    <AppFooter />
+  </div>
 </template>
 
-<script>
-
-    export default {
-
-    }
+<script setup>
+import AppNavbar from '~/components/layouts/AppNavbar.vue'
+import AppFooter from '~/components/layouts/AppFooter.vue'
 </script>
 
-<style scoped>
+<style>
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+.main-content {
+  flex: 1;
+}
 </style>

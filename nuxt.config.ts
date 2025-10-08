@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-09-29",
   app: {
     head: {
-      title: "ĐanHoa - Thời trang trang phục Khmer",
+      title: "ĐanHoaBridal - Thời trang trang phục Khmer",
       meta: [{ name: "description", content: "Shop thời trang DanHoa" }],
       link: [
         {
